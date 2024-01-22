@@ -41,8 +41,14 @@ header ul{
   flex-direction: row;
   list-style: none;
   justify-content: space-around;
-  color: orangered;
-  
+  color: lightblue;
+  }
+  figure{
+    background-image: url("../images/RiverPainting.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
 }
 #about {
     color: orangered;
@@ -54,6 +60,7 @@ position: relative;
 display: flex;
 justify-content: space-evenly;
 margin-bottom: 5%;
+color: lightskyblue;
 }
 
 figcaption h2{
@@ -82,20 +89,31 @@ figcaption img{
 
 #big-img{   /* change this to a different pic and name lateron */
     background-image: none;
-position: relative;
+    position: relative;
+    width: 100%;
+    height: 15%;
+
 }
 
 
 #big-img img{ /* change this to a different pic and name lateron */
-    width: 100%;
+    width: 80%;
+    height: 35vh;
     position:absolute;
     z-index: 1;
 }
 #big-img h2{  /* change this to a different pic and name lateron */
-
+    color: lightskyblue;
     position:absolute;
     z-index: 2; 
-    top: 90%;
+    top: 100%;
+}
+#big-img p{
+    color: lightskyblue;
+    position:absolute;
+    z-index: 2; 
+    top: 105%;
+    margin-left: 2%;
 }
 
 #small-img{
@@ -113,22 +131,10 @@ position: relative;
 }
 #contact ul{
     list-style: none;
-    display: flex;
+    display: flex; 
     justify-content: space-evenly;
-    border: 1px solid black;
-}
-#hero{
-    /*background-image: url("../images/RiverPainting.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 40vh;
-    background-repeat: no-repeat*/
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+  }
   
-   
-}
 #hero img{
 width: 150px;
 height:  150px;
